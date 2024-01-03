@@ -1,0 +1,60 @@
+html,
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+label {
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.error {
+    color: #d00303;
+    font-size: small;
+}
+
+.alert {
+    display: flex;
+    padding: 4px 8px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #087c08;
+    color: #ffffff;
+}
+
+.alert-error {
+    background-color: #d00303;
+    color: #ffffff;
+}
