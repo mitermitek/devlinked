@@ -57,5 +57,5 @@ const form = useForm({
         </div>
         <button type="submit">Sign up</button>
     </form>
-    <p><Link href="/auth/sign-in">already have an account? log in now</Link></p>
+    <p><Link :href="route('auth.sign-in.index')">already have an account? log in now</Link></p>
 </template>

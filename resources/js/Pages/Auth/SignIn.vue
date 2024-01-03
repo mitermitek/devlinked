@@ -39,5 +39,5 @@ const form = useForm({
         </div>
         <button type="submit">Sign in</button>
     </form>
-    <p><Link href="/auth/sign-up">no account yet? create it now</Link></p>
+    <p><Link :href="route('auth.sign-up.index')">no account yet? create it now</Link></p>
 </template>
